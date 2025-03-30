@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería S.XXI - Avances Tecnológicos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Ingeniería S.XXI</a>
+            <ul class="nav-links">
+                <li><a href="introduccion.html">Introducción</a></li>
+                <li><a href="hitos.html">Hitos</a></li>
+                <li><a href="avances.html" class="active">Avances</a></li>
+                <li><a href="visionarios.html">Visionarios</a></li>
+                <li><a href="futuro.html">Futuro</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section class="advances-section reveal">
+            <div class="container">
+                <h2>Avances Tecnológicos que Definen la Época</h2>
+                <p class="section-subtitle">Pilares de la ingeniería moderna. Haz clic en cada uno para saber más.</p>
+                <div class="advances-grid">
+                    <!-- Avance: AI -->
+                    <div class="advance-card clickable-advance reveal" data-modal-id="ai">
+                        <i class="fas fa-brain card-icon"></i>
+                        <h3>Inteligencia Artificial</h3>
+                        <p>Redefine la creatividad, el diagnóstico y la interacción humano-máquina.</p>
+                    </div>
+                    <!-- Avance: Robotics -->
+                    <div class="advance-card clickable-advance reveal" data-modal-id="robotics">
+                        <i class="fas fa-robot card-icon"></i>
+                        <h3>Robótica</h3>
+                        <p>Desde la manufactura colaborativa hasta la cirugía de precisión.</p>
+                    </div>
+                     <!-- Avance: Nanotech -->
+                     <div class="advance-card clickable-advance reveal" data-modal-id="nanotech">
+                        <i class="fas fa-atom card-icon"></i>
+                        <h3>Nanotecnología</h3>
+                        <p>Abre puertas a nuevos materiales, medicina y electrónica.</p>
+                    </div>
+                     <!-- Avance: Biotech -->
+                     <div class="advance-card clickable-advance reveal" data-modal-id="biotech">
+                        <i class="fas fa-dna card-icon"></i>
+                        <h3>Biotecnología</h3>
+                        <p>Ingeniería de la vida: terapias, agricultura, biocombustibles.</p>
+                    </div>
+                     <!-- Avance: 3D Printing -->
+                     <div class="advance-card clickable-advance reveal" data-modal-id="3dprinting">
+                        <i class="fas fa-cube card-icon"></i>
+                        <h3>Impresión 3D</h3>
+                        <p>Revoluciona la manufactura aditiva y la personalización.</p>
+                    </div>
+                     <!-- Avance: Renewable Energy -->
+                     <div class="advance-card clickable-advance reveal" data-modal-id="renewable">
+                        <i class="fas fa-solar-panel card-icon"></i>
+                        <h3>Energía Renovable</h3>
+                        <p>Crucial para la descarbonización y la sostenibilidad.</p>
+                    </div>
+                     <!-- Avance: Automation -->
+                    <div class="advance-card clickable-advance reveal" data-modal-id="automation">
+                        <i class="fas fa-cogs card-icon"></i>
+                        <h3>Automatización</h3>
+                        <p>Optimiza procesos industriales y logísticos.</p>
+                    </div>
+                     <!-- Avance: IoT -->
+                     <div class="advance-card clickable-advance reveal" data-modal-id="iot">
+                        <i class="fas fa-wifi card-icon"></i>
+                        <h3>Internet de las Cosas</h3>
+                        <p>Conecta el mundo físico al digital, generando datos masivos.</p>
+                    </div>
+                    <!-- FIN TARJETAS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <p>© 2023 Exploración de la Ingeniería del Siglo XXI. </p>
+            <p>Contenido adaptado e inspirado en la presentación original.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Genérico para Detalles -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <div class="modal-header">
+                 <img id="modal-detail-img" src="" alt="Detalle" class="modal-img" style="display: none;">
+                 <i id="modal-detail-icon" class="" style="display: none;"></i>
+            </div>
+            <h3 id="modal-detail-title">Título Detalle</h3>
+            <div class="modal-body">
+                <p id="modal-detail-text">Descripción detallada aquí...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

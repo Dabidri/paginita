@@ -79,18 +79,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const biographies = {
             musk: {
                 name: "Elon Musk",
-                img: "placeholder_musk.jpg",
+                img: "imagenes/placeholder_musk.jpg",
                 bio: "Empresario y visionario ... conocido por sus ambiciosos proyectos en vehículos eléctricos, exploración espacial e interfaces cerebro-computadora." // (Tu biografía completa)
             },
             jobs: {
                 name: "Steve Jobs",
-                img: "placeholder_jobs.jpg",
+                img: "imagenes/placeholder_jobs.jpg",
                 bio: "Co-fundador y figura icónica de Apple ... Su enfoque en el diseño minimalista y la experiencia de usuario transformaron múltiples mercados." // (Tu biografía completa)
             },
-            zuckerberg: { name: "Mark Zuckerberg", img: "placeholder_zuckerberg.jpg", bio: "Co-fundador y CEO de Meta Platforms ... Creador de la red social más grande del mundo..." },
-            bezos: { name: "Jeff Bezos", img: "placeholder_bezos.jpg", bio: "Fundador de Amazon ... Transformó radicalmente el sector minorista..." },
-            altman: { name: "Sam Altman", img: "placeholder_altman.jpg", bio: "Emprendedor e inversor, CEO de OpenAI ... Figura clave en el auge de la IA generativa." },
-            pagebrin: { name: "Larry Page & Sergey Brin", img: "placeholder_google.jpg", bio: "Co-fundadores de Google ... Desarrollaron el revolucionario algoritmo PageRank..." }
+            zuckerberg: { name: "Mark Zuckerberg", img: "imagenes/placeholder_zuckerberg.jpg", bio: "Co-fundador y CEO de Meta Platforms ... Creador de la red social más grande del mundo..." },
+            bezos: { name: "Jeff Bezos", img: "imagenes/placeholder_bezos.jpg", bio: "Fundador de Amazon ... Transformó radicalmente el sector minorista..." },
+            altman: { name: "Sam Altman", img: "imagenes/placeholder_altman.jpg", bio: "Emprendedor e inversor, CEO de OpenAI ... Figura clave en el auge de la IA generativa." },
+            pagebrin: { name: "Larry Page & Sergey Brin", img: "imagenes/placeholder_google.jpg", bio: "Co-fundadores de Google ... Desarrollaron el revolucionario algoritmo PageRank..." }
             // ...
         };
 
